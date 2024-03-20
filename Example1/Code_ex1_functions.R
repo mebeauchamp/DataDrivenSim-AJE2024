@@ -6,7 +6,7 @@
 ### manuscript for details)
 ###
 ### Code by: Marie-Eve Beauchamp                                            
-### Last update: March 19, 2024                                              
+### Last update: March 20, 2024                                              
 ###
 ##################################################################################################
 ##################################################################################################
@@ -214,7 +214,7 @@ simulations.ex1.fct <- function(n.reps, colon.dat, HR.obstruct, OR.obstruct.stag
 
   save(n.reps, HR.obstruct, OR.obstruct.stage, HR.stage,  sc.name, sc.no, n.events, 
        cox.wStage.coef, cox.woStage.coef, 
-       file = paste0('./SimResults_sc', sc.no, 'samples.RData'))
+       file = paste0('./SimResults_sc', sc.no, '.RData'))
 }
 
 
