@@ -5,7 +5,7 @@
 ### of an event on its association with a time-varying exposure (see the manuscript for details) 
 ###
 ### Code by: Marie-Eve Beauchamp                                            
-### Last update: March 19, 2024                                             
+### Last update: March 20, 2024                                             
 ###
 ##################################################################################################
 ##################################################################################################
@@ -149,25 +149,25 @@ round(cox.ori.evEnd$conf.int[1, c(1, 3:4)], digits = 2)
 
 options(warn = 1)  # To request warnings to be printed as they occur
 
-## Scenario: HR for exposure of 1.0
+## Scenario 1: HR for exposure of 1.0
 set.seed(860010)  # Set seed to ensure reproducibility
 simulations.ex2.fct(n.reps = 1000, dat.ori.evEnd = data.ori.evEnd, visits = visits,
                     interval.ev = interval.ev, beta.expo = log(1.0), 
                     betas.covar = cox.ori.evMid$coef[2:3, 1])
 
-## Scenario: HR for exposure of 1.5
+## Scenario 2: HR for exposure of 1.5
 set.seed(860015)  # Set seed to ensure reproducibility
 simulations.ex2.fct(n.reps = 1000, dat.ori.evEnd = data.ori.evEnd, visits = visits,
                     interval.ev = interval.ev, beta.expo = log(1.5), 
                     betas.covar = cox.ori.evMid$coef[2:3, 1])
 
-## Scenario: HR for exposure of 2.0
+## Scenario 3: HR for exposure of 2.0
 set.seed(860020)  # Set seed to ensure reproducibility
 simulations.ex2.fct(n.reps = 1000, dat.ori.evEnd = data.ori.evEnd, visits = visits,
                     interval.ev = interval.ev, beta.expo = log(2.0), 
                     betas.covar = cox.ori.evMid$coef[2:3, 1])
 
-## Scenario: HR for exposure of 2.5
+## Scenario 4: HR for exposure of 2.5
 set.seed(860025)  # Set seed to ensure reproducibility
 simulations.ex2.fct(n.reps = 1000, dat.ori.evEnd = data.ori.evEnd, visits = visits,
                     interval.ev = interval.ev, beta.expo = log(2.5), 

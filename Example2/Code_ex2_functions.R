@@ -6,7 +6,7 @@
 ### with a time-varying exposure (see the manuscript for details)
 ###
 ### Code by: Marie-Eve Beauchamp                                            
-### Last update: March 19, 2024                                              
+### Last update: March 20, 2024                                              
 ###
 ##################################################################################################
 ##################################################################################################
@@ -252,7 +252,7 @@ simulations.ex2.fct <- function(n.reps, dat.ori.evEnd, visits, interval.ev, beta
 
   save(n.reps, beta.expo, betas.covar, n.events.gen, n.events.end, n.events.mid, ev.assigned.ids,
        cox.gen, cox.mid, cox.end,
-       file = paste0('./SimResults_sc', sc.no, 'samples.RData'))
+       file = paste0('./SimResults_sc', sc.no, '.RData'))
 }
 
 
