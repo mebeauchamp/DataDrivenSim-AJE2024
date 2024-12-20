@@ -2,7 +2,7 @@
 
 R scripts and data to reproduce the two examples of data-driven simulations presented in the manuscript:
 
-Abrahamowicz M, Beauchamp ME, Boulesteix AL, Morris TP, Sauerbrei W, Kaufman JS, on behalf of the STRATOS Simulation Panel (SP). Data-Driven Simulations to Assess the Impact of Study Imperfections in Time-to-Event Analyses. *Am J Epidemiol* 2024.
+Abrahamowicz M, Beauchamp ME, Boulesteix AL, Morris TP, Sauerbrei W, Kaufman JS, on behalf of the STRATOS Simulation Panel (SP). Data-Driven Simulations to Assess the Impact of Study Imperfections in Time-to-Event Analyses. *Am J Epidemiol* 2024. doi: 10.1093/aje/kwae058. Online ahead of print.
 
 ## Content
 
