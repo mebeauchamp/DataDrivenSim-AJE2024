@@ -28,7 +28,7 @@ Example 1 of data-driven simulations is run by the script `Code_ex1_simulations.
 ## /Example2
 
 Example 2 of data-driven simulations is run by the script `Code_ex2_simulations.R`, which:
-- Calls the functions from the scripts `Code_ex2_functions.R` and `Code_permalgorithm.realDat.R`
+- Calls the functions from the scripts `Code_ex2_functions.R` and `Code_permalgorithm.realdat.R`
 - Loads the original synthetic data from `dataOriginal_ex2.RData` 
 - Saves detailed simulation results in a separate file for each scenario (`SimResults_sc1.RData`, ..., `SimResults_sc4.RData` and `SimResults_QBA.RData`) 
 - Reproduces Table 2 of the manuscript and Web Table 3 (saved in `Table2.RData` and `WebTable3.RData`).
